@@ -1,6 +1,18 @@
-# Compiled files
+# Terraform
+.terraform
 *.tfstate
 *.tfstate.backup
 
-# Module directory
-.terraform/
+# OS X
+.history
+.DS_Store
+
+# IntelliJ
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+out/
